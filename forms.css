@@ -133,7 +133,7 @@
 
 /* END Multi Step __________*/
 .fs-title {
-  font-size: 15px;
+  font-size: 12px;
   text-transform: uppercase;
   color: #2C3E50;
   margin-bottom: 10px;
@@ -141,7 +141,7 @@
 
 .fs-subtitle {
   font-weight: normal;
-  font-size: 13px;
+  font-size: 11px;
   color: #666;
   margin-bottom: 20px;
 }
@@ -197,6 +197,6 @@
 /*marking active/completed steps green*/
 /*The number of the step and the connector before it = green*/
 .progressbar li.active:before, .progressbar li.active:after {
-  background: #27AE60;
+  background: #ae32c7;
   color: white;
 }
