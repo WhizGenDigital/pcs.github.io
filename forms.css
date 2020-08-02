@@ -48,7 +48,7 @@
   box-shadow: 0 0 1.5rem 1px rgba(0, 0, 0, 0.4);
   padding: 2rem 2rem;
   box-sizing: border-box;
-  width: 80%;
+  width: 60%;
   margin: 0 auto;
   position: relative;
 }
@@ -90,7 +90,7 @@
   box-sizing: border-box;
   font-family: inherit;
   color: inherit;
-  font-size: 1.3rem;
+  font-size: 0.8rem;
   transition: all .3s;
 }
 .multistep-form input[type="text"]:focus, .multistep-form textarea:focus, .multistep-form input[type="email"]:focus {
