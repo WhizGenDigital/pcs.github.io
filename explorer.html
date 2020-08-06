@@ -28,7 +28,9 @@
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
-  <link href="forms.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:400,700|Material+Icons">
+  <link rel="stylesheet" href="./assets/css/font-awesome.min.css"><link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+  <link rel="stylesheet" href="./assets/css/form.css">
 
   <!-- =======================================================
   * Project Name: PCS-Website - v1.0.0
@@ -98,143 +100,223 @@
 
      
     <!-- ======= Blog Section ======= -->
-    <section id="blog" class="blog">
+    <div class="image-container set-full-height" style="background-image: url('./assets/img/logo/pcs_logo.png')">
+      <a href="" class="made-with-mk" target="_blank"><div class="brand">	<i class="material-icons">email</i></div>
+        <!-- <div class="made-with"><span class="input-group-addon"> -->
+          
+        </span>
+      </a>
       <div class="container">
-        <div class="row"> 
-<!-- 
-    Full Name (As per PAN Card)
-Email Id
-Date of Birth
-Phone Number
-City
-PAN Card Number -->
-    <form class="multistep-form">
-      <ul class="progressbar">
-        <li class="active">Personal Info</li>
-        <li>Government Info</li>
-        <li>Employment Info</li>
-        <li>Application Info</li>
-        <li>Initiaition Info</li>
-      </ul>
-      <fieldset>
-        <h2 class="fs-title">Personal Information</h2>
-        <h3 class="fs-subtitle">This is step 1 of 5</h3>
-        <div class="row-form">
-          <div class="col-2-of-4">
-            <input type="text" class="form-input" name="first-name" id="applicationFirstName" placeholder="Full Name" required>
-            <label for="applicationFirstName" class="form-label">First Name</label>
-          </div>
-          <div class="col-1-of-4">
-            <input type="text" class="form-input" name="middle-initial" id="applicationMiddleInitial"placeholder="Middle" required>
-            <label for="applicationMiddleInitial" class="form-label">Middle</label>
-          </div>
-          <div class="col-1-of-4">
-            <input type="text" class="form-input" name="zip-code" id="applicationZipCode" placeholder="Zip" required>
-            <label for="applicationZipCode" class="form-label">Zip Code</label>
-          </div>
+        <div class="row">
+
+          <div class="col-sm-8 col-sm-offset-2">
+
+
+             <!-- Wizard container -->
+             <div class="wizard-container">
+
+              <div class="card wizard-card" data-color="red" id="wizard">
+
+
+                <form action="" method="">
+                  <!--        You can switch " data-color="blue" "  with one of the next bright colors: "green", "orange", "red", "purple"             -->
+
+                        <div class="wizard-header">
+                            <h3 class="wizard-title">
+                              Analyzer
+                            </h3>
+                <h5>Enter your details to begin analysin </h5>
+                        </div>
+              <div class="wizard-navigation">
+                <ul>
+                                <li><a href="#details" data-toggle="tab">Personal</a></li>
+                                <li><a href="#captain" data-toggle="tab">Employment</a></li>
+                                <li><a href="#description" data-toggle="tab">PAN</a></li>
+                            </ul>
+              </div>
+
+                          <div class="tab-content">
+                              <div class="tab-pane" id="details">
+                                <div class="row">
+                                  <div class="col-sm-12">
+                                      <h4 class="info-text"> Let's start with the basic details.</h4>
+                                  </div>
+                                    <div class="col-sm-6">
+                      <div class="input-group">
+                        <span class="input-group-addon">
+                          <i class="material-icons">person</i>
+                        </span>
+                        <div class="form-group label-floating">
+                                                <label class="control-label">Your Name</label>
+                                                <input name="name" type="text" class="form-control">
+                                            </div>
+                      </div>
+
+                      <div class="input-group">
+                        <span class="input-group-addon">
+                          <i class="material-icons">email</i>
+                        </span>
+                        <div class="form-group label-floating">
+                                                <label class="control-label">Your Email</label>
+                                                <input name="name2" type="email" class="form-control">
+                                            </div>
+                      </div>
+
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <div class="input-group">
+                        <span class="input-group-addon">
+                          <i class="material-icons">book</i>
+                        </span>
+                        <div class="form-group label-floating">
+                                                <label class="control-label">Your Email</label>
+                                                <input name="name2" type="email" class="form-control">
+                                            </div>
+                      </div>
+                      <div class="input-group">
+                        <span class="input-group-addon">
+                          <i class="material-icons">phone</i>
+                        </span>
+                        <div class="form-group label-floating">
+                                                <label class="control-label">Your Phone Number</label>
+                                                <input name="name2" type="email" class="form-control">
+                                            </div>
+                      </div>
+                                    </div>
+                                </div>
+                              </div>
+                              <div class="tab-pane" id="captain">
+                                  <h4 class="info-text">Employment Details </h4>
+                                  <div class="row">
+                    <div class="col-sm-6">
+                                        <div class="input-group">
+                        <span class="input-group-addon">
+                          <i class="material-icons">book</i>
+                        </span>
+                        <div class="form-group label-floating">
+                                                <label class="control-label">Your Email</label>
+                                                <input name="name2" type="email" class="form-control">
+                                            </div>
+                      </div>
+                      <div class="input-group">
+                        <span class="input-group-addon">
+                          <i class="material-icons">phone</i>
+                        </span>
+                        <div class="form-group label-floating">
+                                                <label class="control-label">Your Phone Number</label>
+                                                <input name="name2" type="phone" class="form-control">
+                                            </div>
+                      </div>
+                    </div>
+                    
+                    <div class="col-sm-6">
+                                        <div class="input-group">
+                        <span class="input-group-addon">
+                          <i class="material-icons">book</i>
+                        </span>
+                        <div class="form-group label-floating">
+                                                <label class="control-label">Your Email</label>
+                                                <input name="name2" type="email" class="form-control">
+                                            </div>
+                      </div>
+                      <div class="input-group">
+                        <span class="input-group-addon">
+                          <i class="material-icons">phone</i>
+                        </span>
+                        <div class="form-group label-floating">
+                                                <label class="control-label">Your Phone Number</label>
+                                                <input name="name2" type="email" class="form-control">
+                                            </div>
+                      </div>
+                                    </div>
+                                  </div>
+                              </div>
+                              <div class="tab-pane" id="description">
+                  <h4 class="info-text">PAN Details </h4>
+                                  <div class="row">
+                                    
+                                    
+                    <div class="col-sm-6">
+                                        <div class="input-group">
+                        <span class="input-group-addon">
+                          <i class="material-icons">book</i>
+                        </span>
+                        <div class="form-group label-floating">
+                                                <label class="control-label">Your Email</label>
+                                                <input name="name2" type="email" class="form-control">
+                                            </div>
+                      </div>
+                      <div class="input-group">
+                        <span class="input-group-addon">
+                          <i class="material-icons">phone</i>
+                        </span>
+                        <div class="form-group label-floating">
+                                                <label class="control-label">Your Phone Number</label>
+                                                <input name="name2" type="email" class="form-control">
+                                            </div>
+                      </div>
+                    </div>
+                    
+                    <div class="col-sm-6">
+                                        <div class="input-group">
+                        <span class="input-group-addon">
+                          <i class="material-icons">book</i>
+                        </span>
+                        <div class="form-group label-floating">
+                                                <label class="control-label">Your Email</label>
+                                                <input name="name2" type="email" class="form-control">
+                                            </div>
+                      </div>
+                      <div class="input-group">
+                        <span class="input-group-addon">
+                          <i class="material-icons">hashtag</i>
+                        </span>
+                        <div class="form-group label-floating">
+                                                <label class="control-label">Your PAN Number</label>
+                                                <input name="name2" type="number" class="form-control">
+                                            </div>
+                      </div>
+                                    </div>
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="wizard-footer">
+                              <div class="pull-right">
+                                    <input type='button' class='btn btn-next btn-fill btn-danger btn-wd' name='next' value='Next' />
+                                    <input type='button' class='btn btn-finish btn-fill btn-danger btn-wd' name='finish' value='Finish' />
+                                </div>
+                                <div class="pull-left">
+                                    <input type='button' class='btn btn-previous btn-fill btn-default btn-wd' name='previous' value='Previous' />
+
+                  <div class="footer-checkbox">
+                    <div class="col-sm-12">
+                      <div class="checkbox">
+                        <label>
+                          <input type="checkbox" name="optionsCheckboxes">
+                        </label>
+                        I Agree to the PCS <a href="terms.html">Terms</a>Terms
+                      </div>
+                    </div>
+                  </div>
+                                </div>
+                                <div class="clearfix"></div>
+                          </div>
+                      </form>
+
+                </div>
+
+
+               </div>
+            </div>
+
         </div>
-        <div class="row-form">
-          <div class="col-1-of-2">
-            <input type="text" class="form-input" name="last-name"  id="applicationLastName" placeholder="Last Name" required>
-            <label for="applicationLastName" class="form-label">Last Name</label>
-          </div>
-          <div class="col-1-of-2">
-            <input type="text" class="form-input" name="address" id="applicationAddress" placeholder="Address" required>
-            <label for="applicationAddress" class="form-label">Address</label>
-          </div>
+
         </div>
-       
-        <div class="row-form">
-          <div class="col-1-of-2">
-            <input type="text" class="form-input" name="birth-date" id="applicationBirthDate" placeholder="Birth Date" required>
-            <label for="applicationBirthDate" class="form-label">Birth Date</label>
-          </div>
-          <div class="col-1-of-2">
-            <input type="text" class="form-input" name="city" id="applicationCity" placeholder="City" required>
-            <label for="applicationCity" class="form-label">City</label>
-          </div>
-        </div>
-        <div class="row-form">
-          <div class="col-1-of-2 form-radio">
-            <input type="radio" class="form-input-radio" name="gender" id="form-male" value="male">
-            <label for="form-male" class="form-radio-label">Male</label>
-            <input type="radio" class="form-input-radio" name="gender" id="form-female" value="female">
-            <label for="form-female" class="form-radio-label">Female</label>
-            <span>Gender</span>
-          </div>
-          <div class="col-1-of-2">
-            <input type="text" class="form-input" name="state" id="applicationState" placeholder="State" required>
-            <label for="applicationState" class="form-label">State</label>
-          </div>
-        </div>
-        <div class="row-form">
-          <div class="col-1-of-2">
-            <input type="text" class="form-input" name="ethnicity" id="applicationEthnicity" placeholder="Ethnicity" required>
-            <label for="applicationEthnicity" class="form-label">Nationality</label>
-          </div>
-          <div class="col-1-of-2">
-            <input type="text" class="form-input" name="home-phone" id="applicationHomePhone" placeholder="Home Phone">
-            <label for="applicationHomePhone" class="form-label">Home Phone</label>
-          </div>
-        </div>
-        <div class="row-form">
-          <div class="col-1-of-2">
-            <input type="email" class="form-input" name="email" id="applicationEmail" placeholder="Email" required>
-            <label for="applicationEmail" class="form-label">Email</label>
-          </div>
-          <div class="col-1-of-2">
-            <input type="text" class="form-input" name="mobile-phone" id="applicationMobilePhone" placeholder="Mobile Phone" required>
-            <label for="applicationMobilePhone" class="form-label">Mobile Phone</label>
-          </div>
-        </div>
-        <input type="button" name="next" class="next action-button" value="Continue to Step 2" />
-      </fieldset>
-      <fieldset>
-        <h2 class="fs-title">Government Information</h2>
-        <h3 class="fs-subtitle">This is step 2 of 5</h3>
-        <input type="text" name="name" placeholder="Full Name" />
-        <input type="text" name="pan" placeholder="PAN" />
-        <input type="text" name="" placeholder="" />
-        <input type="button" name="previous" class="previous action-button" value="Personal Info - Step 1" />
-        <input type="button" name="next" class="next action-button" value="Continue to step 3" />
-      </fieldset>
-      <fieldset>
-        <h2 class="fs-title">Employment Information</h2>
-        <h3 class="fs-subtitle">This is step 3 of 5</h3>
-        <input type="text" name="cname" placeholder="Company Name" />
-        <input type="text" name="sname" placeholder="Supervisor Name" />
-        <input type="text" name="phone" placeholder="Phone" />
-        <textarea name="address" placeholder="Company Address"></textarea>
-        <input type="button" name="previous" class="previous action-button" value="Government Info - Step 2" />
-        <input type="button" name="next" class="next action-button" value="Continue to step 4" />
-      </fieldset>
-      <fieldset>
-        <h2 class="fs-title">Application Information</h2>
-        <h3 class="fs-subtitle">This is step 4 of 5</h3>
-        <input type="text" name="fname" placeholder="First Name" />
-        <input type="text" name="lname" placeholder="Last Name" />
-        <input type="text" name="phone" placeholder="Phone" />
-        <textarea name="address" placeholder="Address"></textarea>
-        <input type="button" name="previous" class="previous action-button" value="Employment Info - Step 3" />
-        <input type="button" name="next" class="next action-button" value="Continue to step 5" />
-      </fieldset>
-      <fieldset>
-        <h2 class="fs-title">Initiation Information</h2>
-        <h3 class="fs-subtitle">This is step 5 of 5</h3>
-        <input type="text" name="fname" placeholder="First Name" />
-        <input type="text" name="lname" placeholder="Last Name" />
-        <input type="text" name="phone" placeholder="Phone" />
-        <textarea name="address" placeholder="Address"></textarea>
-        <input type="button" name="previous" class="previous action-button" value="Application Info - Step 4" />
-        <input type="submit" name="next" class="submit action-button" value="Submit" />
-      </fieldset>
-    </form>
+
+
     </div>
-    
-        
-  
-      </div>
-    </section><!-- End Blog Section -->
+ 
+   
 
   </main><!-- End #main -->
 
@@ -322,7 +404,7 @@ PAN Card Number -->
     </div>
   </footer><!-- End Footer -->
 
-  <a href="#" class="back-to-top"><i class="ri-arrow-up-line"></i></a>
+  <!-- <a href="#" class="back-to-top"><i class="ri-arrow-up-line"></i></a> -->
   <div id="preloader"></div>
 
   <!-- Vendor JS Files -->
@@ -337,7 +419,9 @@ PAN Card Number -->
 
   <!-- Template Main JS File -->
   <script src="assets/js/booster.js"></script>
-  <script src="form.js"></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js'>
+</script><script  src="./assets/js/form.js"></script>
 
 </body>
 

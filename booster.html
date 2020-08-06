@@ -28,7 +28,9 @@
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
-  <link href="form.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:400,700|Material+Icons">
+  <link rel="stylesheet" href="./assets/css/font-awesome.min.css"><link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+  <link rel="stylesheet" href="./assets/css/form.css">
 
   <!-- =======================================================
   * Project Name: PCS-Website - v1.0.0
@@ -64,7 +66,7 @@
       
       <nav class="nav-menu d-none d-lg-block">
         <ul>
-          <li class="active"><a href="index.html#header">Home</a></li>
+          <li class="active"><a href="#header">Home</a></li>
           <li class="drop-down"><a href="#pricing">Analysers</a>
             <ul>
               <li><a href="explorer.html">Credit Explorer</a></li>
@@ -83,12 +85,14 @@
 
   <main id="main">
 
+
+
     <!-- ======= Breadcrumbs ======= -->
     <section id="breadcrumbs" class="breadcrumbs">
       <div class="container">
         <ol>
           <li><a href="index.html">Home</a></li>
-          <li>Credit</li>
+          <li>Booster</li>
         </ol>
         <h2>Credit Booster</h2>
       </div>
@@ -96,14 +100,223 @@
 
      
     <!-- ======= Blog Section ======= -->
-    <section id="blog" class="blog">
+    <div class="image-container set-full-height" style="background-image: url('./assets/img/logo/pcs_logo.png')">
+      <a href="" class="made-with-mk" target="_blank"><div class="brand">	<i class="material-icons">email</i></div>
+        <!-- <div class="made-with"><span class="input-group-addon"> -->
+          
+        </span>
+      </a>
       <div class="container">
-    <p>Entergrate Form Here</p>
-        
-      
+        <div class="row">
 
-      </div>
-    </section><!-- End Blog Section -->
+          <div class="col-sm-8 col-sm-offset-2">
+
+
+             <!-- Wizard container -->
+             <div class="wizard-container">
+
+              <div class="card wizard-card" data-color="red" id="wizard">
+
+
+                <form action="" method="">
+                  <!--        You can switch " data-color="blue" "  with one of the next bright colors: "green", "orange", "red", "purple"             -->
+
+                        <div class="wizard-header">
+                            <h3 class="wizard-title">
+                              Analyzer
+                            </h3>
+                <h5>Enter your details to begin analysin </h5>
+                        </div>
+              <div class="wizard-navigation">
+                <ul>
+                                <li><a href="#details" data-toggle="tab">Personal</a></li>
+                                <li><a href="#captain" data-toggle="tab">Employment</a></li>
+                                <li><a href="#description" data-toggle="tab">PAN</a></li>
+                            </ul>
+              </div>
+
+                          <div class="tab-content">
+                              <div class="tab-pane" id="details">
+                                <div class="row">
+                                  <div class="col-sm-12">
+                                      <h4 class="info-text"> Let's start with the basic details.</h4>
+                                  </div>
+                                    <div class="col-sm-6">
+                      <div class="input-group">
+                        <span class="input-group-addon">
+                          <i class="material-icons">person</i>
+                        </span>
+                        <div class="form-group label-floating">
+                                                <label class="control-label">Your Name</label>
+                                                <input name="name" type="text" class="form-control">
+                                            </div>
+                      </div>
+
+                      <div class="input-group">
+                        <span class="input-group-addon">
+                          <i class="material-icons">email</i>
+                        </span>
+                        <div class="form-group label-floating">
+                                                <label class="control-label">Your Email</label>
+                                                <input name="name2" type="email" class="form-control">
+                                            </div>
+                      </div>
+
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <div class="input-group">
+                        <span class="input-group-addon">
+                          <i class="material-icons">book</i>
+                        </span>
+                        <div class="form-group label-floating">
+                                                <label class="control-label">Your Email</label>
+                                                <input name="name2" type="email" class="form-control">
+                                            </div>
+                      </div>
+                      <div class="input-group">
+                        <span class="input-group-addon">
+                          <i class="material-icons">phone</i>
+                        </span>
+                        <div class="form-group label-floating">
+                                                <label class="control-label">Your Phone Number</label>
+                                                <input name="name2" type="email" class="form-control">
+                                            </div>
+                      </div>
+                                    </div>
+                                </div>
+                              </div>
+                              <div class="tab-pane" id="captain">
+                                  <h4 class="info-text">Employment Details </h4>
+                                  <div class="row">
+                    <div class="col-sm-6">
+                                        <div class="input-group">
+                        <span class="input-group-addon">
+                          <i class="material-icons">book</i>
+                        </span>
+                        <div class="form-group label-floating">
+                                                <label class="control-label">Your Email</label>
+                                                <input name="name2" type="email" class="form-control">
+                                            </div>
+                      </div>
+                      <div class="input-group">
+                        <span class="input-group-addon">
+                          <i class="material-icons">phone</i>
+                        </span>
+                        <div class="form-group label-floating">
+                                                <label class="control-label">Your Phone Number</label>
+                                                <input name="name2" type="phone" class="form-control">
+                                            </div>
+                      </div>
+                    </div>
+                    
+                    <div class="col-sm-6">
+                                        <div class="input-group">
+                        <span class="input-group-addon">
+                          <i class="material-icons">book</i>
+                        </span>
+                        <div class="form-group label-floating">
+                                                <label class="control-label">Your Email</label>
+                                                <input name="name2" type="email" class="form-control">
+                                            </div>
+                      </div>
+                      <div class="input-group">
+                        <span class="input-group-addon">
+                          <i class="material-icons">phone</i>
+                        </span>
+                        <div class="form-group label-floating">
+                                                <label class="control-label">Your Phone Number</label>
+                                                <input name="name2" type="email" class="form-control">
+                                            </div>
+                      </div>
+                                    </div>
+                                  </div>
+                              </div>
+                              <div class="tab-pane" id="description">
+                  <h4 class="info-text">PAN Details </h4>
+                                  <div class="row">
+                                    
+                                    
+                    <div class="col-sm-6">
+                                        <div class="input-group">
+                        <span class="input-group-addon">
+                          <i class="material-icons">book</i>
+                        </span>
+                        <div class="form-group label-floating">
+                                                <label class="control-label">Your Email</label>
+                                                <input name="name2" type="email" class="form-control">
+                                            </div>
+                      </div>
+                      <div class="input-group">
+                        <span class="input-group-addon">
+                          <i class="material-icons">phone</i>
+                        </span>
+                        <div class="form-group label-floating">
+                                                <label class="control-label">Your Phone Number</label>
+                                                <input name="name2" type="email" class="form-control">
+                                            </div>
+                      </div>
+                    </div>
+                    
+                    <div class="col-sm-6">
+                                        <div class="input-group">
+                        <span class="input-group-addon">
+                          <i class="material-icons">book</i>
+                        </span>
+                        <div class="form-group label-floating">
+                                                <label class="control-label">Your Email</label>
+                                                <input name="name2" type="email" class="form-control">
+                                            </div>
+                      </div>
+                      <div class="input-group">
+                        <span class="input-group-addon">
+                          <i class="material-icons">hashtag</i>
+                        </span>
+                        <div class="form-group label-floating">
+                                                <label class="control-label">Your PAN Number</label>
+                                                <input name="name2" type="number" class="form-control">
+                                            </div>
+                      </div>
+                                    </div>
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="wizard-footer">
+                              <div class="pull-right">
+                                    <input type='button' class='btn btn-next btn-fill btn-danger btn-wd' name='next' value='Next' />
+                                    <input type='button' class='btn btn-finish btn-fill btn-danger btn-wd' name='finish' value='Finish' />
+                                </div>
+                                <div class="pull-left">
+                                    <input type='button' class='btn btn-previous btn-fill btn-default btn-wd' name='previous' value='Previous' />
+
+                  <div class="footer-checkbox">
+                    <div class="col-sm-12">
+                      <div class="checkbox">
+                        <label>
+                          <input type="checkbox" name="optionsCheckboxes">
+                        </label>
+                        I Agree to the PCS <a href="terms.html">Terms</a>Terms
+                      </div>
+                    </div>
+                  </div>
+                                </div>
+                                <div class="clearfix"></div>
+                          </div>
+                      </form>
+
+                </div>
+
+
+               </div>
+            </div>
+
+        </div>
+
+        </div>
+
+
+    </div>
+ 
+   
 
   </main><!-- End #main -->
 
@@ -136,7 +349,7 @@
           <div class="col-lg-3 col-md-6 footer-links">
             <h4>Useful Links</h4>
             <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="index.html">Home</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="#">Services</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
@@ -191,7 +404,7 @@
     </div>
   </footer><!-- End Footer -->
 
-  <a href="#" class="back-to-top"><i class="ri-arrow-up-line"></i></a>
+  <!-- <a href="#" class="back-to-top"><i class="ri-arrow-up-line"></i></a> -->
   <div id="preloader"></div>
 
   <!-- Vendor JS Files -->
@@ -206,7 +419,9 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/booster.js"></script>
-  <script src="form.js"></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js'>
+</script><script  src="./assets/js/form.js"></script>
 
 </body>
 
