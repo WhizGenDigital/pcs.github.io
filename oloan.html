@@ -28,7 +28,9 @@
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
-  <link href="form.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:400,700|Material+Icons">
+  <link rel="stylesheet" href="./assets/css/font-awesome.min.css"><link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+  <link rel="stylesheet" href="./assets/css/form.css">
 
   <!-- =======================================================
   * Project Name: PCS-Website - v1.0.0
@@ -61,10 +63,12 @@
       <!-- Uncomment below if you prefer to use an image logo -->
       <!-- <a href="index.html#header" class="logo mr-auto scrollto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
 
+
+
       
       <nav class="nav-menu d-none d-lg-block">
         <ul>
-          <li class="active"><a href="index.html#header">Home</a></li>
+          <li class="active"><a href="#header">Home</a></li>
           <li class="drop-down"><a href="#">Loans</a>
             <ul>
               <li><a href="ploan.html">Personal Loan</a></li>
@@ -75,14 +79,6 @@
               <li><a href="mloan.html">Mortgage Loan</a></li>
             </ul>
           </li>
-          <li class="drop-down"><a href="#pricing">Analysers</a>
-            <ul>
-              <li><a href="explorer.html">Credit Explorer</a></li>
-              <li><a href="booster.html">Credit Booster</a></li>
-              <li><a href="analyser.html">Credit Analyser</a></li>
-            </ul>
-          </li>
-         
           <li><a href="#footer">Contact</a></li>
           <li><a href="./pcsdash/index.html">SignIn</a></li>
         </ul>
@@ -93,6 +89,8 @@
 
   <main id="main">
 
+
+
     <!-- ======= Breadcrumbs ======= -->
     <section id="breadcrumbs" class="breadcrumbs">
       <div class="container">
@@ -100,20 +98,281 @@
           <li><a href="index.html">Home</a></li>
           <li>Open Plot Loan</li>
         </ol>
-        <h2>Open Plot Loan </h2>
+        <h2>Open Plot Loan</h2>
       </div>
     </section><!-- End Breadcrumbs -->
 
      
     <!-- ======= Blog Section ======= -->
-    <section id="blog" class="blog">
+    <div class="image-container set-full-height" style="background-image: url('./assets/img/logo/pcs_logo.png')">
+      <a href="" class="made-with-mk" target="_blank"><div class="brand">	<i class="material-icons">email</i></div>
+        <!-- <div class="made-with"><span class="input-group-addon"> -->
+          
+        </span>
+      </a>
       <div class="container">
-    <p>Open Plot Form Here</p>
-        
-      
+        <div class="row">
 
-      </div>
-    </section><!-- End Blog Section -->
+          <div class="col-sm-8 col-sm-offset-2">
+             <!-- Wizard container -->
+             <div class="wizard-container">
+              <div class="card wizard-card" data-color="red" id="wizard">
+                <form action="" method="">
+                        <div class="wizard-header">
+                            <h3 class="wizard-title">
+                              Open Plot Loan
+                            </h3>
+                <h5>Enter your details to begin your application </h5>
+                        </div>
+ <!-- Tab Labels Start --> 
+              <div class="wizard-navigation">
+                <ul>
+                                <li><a href="#details" data-toggle="tab">Personal</a></li>
+                                <li><a href="#captain" data-toggle="tab">Employment</a></li>
+                                <li><a href="#description" data-toggle="tab">PAN</a></li>
+                            </ul>
+              </div>
+ <!-- Tab Labels End --> 
+                          <div class="tab-content">
+ <!-- Tab Personal Start -->                           
+                              <div class="tab-pane" id="details">
+                                <div class="row">
+                                  <div class="col-sm-12">
+                                      <h4 class="info-text"> Let's start with the basic details.</h4>
+                                  </div>
+ <!--**********************************Start name|dob|email|phone********************************************************  -->                             
+                                    <div class="col-sm-6">
+                      <div class="input-group">
+                        <span class="input-group-addon">
+                          <i class="material-icons">person</i>
+                        </span>
+                        <div class="form-group label-floating">
+                                                <label class="control-label">Full Name</label>
+                                                <input name="name" type="text" class="form-control">
+                                            </div>
+                      </div>
+
+                      <div class="input-group">
+                        <span class="input-group-addon">
+                          <i class="material-icons">email</i>
+                        </span>
+                        <div class="form-group label-floating">
+                                                <label class="control-label">Email Address</label>
+                                                <input name="name2" type="email" class="form-control">
+                                            </div>
+                      </div>
+
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <div class="input-group">
+                        <span class="input-group-addon">
+                          <i class="material-icons">memory</i>
+                        </span>
+                        <div class="form-group label-floating">
+                                                <label class="control-label">DOB</label>
+                                                <input name="date" type="text" onfocus="(this.type='date')" onblur="if(!this.value)this.type='text'" class="form-control">
+                                            </div>
+                      </div>
+                      <div class="input-group">
+                        <span class="input-group-addon">
+                          <i class="material-icons">phone</i>
+                        </span>
+                        <div class="form-group label-floating">
+                                                <label class="control-label">Your Phone Number</label>
+                                                <input name="name2" type="email" class="form-control">
+                                            </div>
+                      </div>
+
+                                    </div>
+<!--**********************************End name|dob|email|phone********************************************************  -->
+
+
+
+<!--**********************************Start city|state********************************************************  -->
+                                    <div class="col-sm-6">
+                                      <div class="input-group">
+                      <span class="input-group-addon">
+                        <i class="material-icons">map</i>
+                      </span>
+                      <div class="form-group label-floating">
+                        <label class="control-label">City</label>
+                        <input name="name2" type="email" class="form-control">
+                    </div>
+                    </div>
+                    
+                                  </div>
+
+                                  <div class="col-sm-6">
+                                    <div class="input-group">
+                                      <span class="input-group-addon">
+                                        <i class="material-icons">map</i>
+                                      </span>
+                                      <div class="form-group label-floating">
+                                                              <label class="control-label">State</label>
+                                                              <input name="name" type="text" class="form-control">
+                                                          </div>
+                                    </div>
+                                                  </div>
+                                                </div>
+                                              </div>
+<!--**********************************End city|state********************************************************  -->
+<!-- Tab Personal End -->
+
+
+<!-- Tab Employment Start -->  
+                            
+                              <div class="tab-pane" id="captain">
+                                  <h4 class="info-text">Employment Details </h4>
+                                  <div class="row">
+                  
+<!--**********************************Start employementType|Income********************************************************  -->
+<div class="col-sm-6">                                       
+<div class="input-group">
+                        <span class="input-group-addon">
+                          <i class="material-icons">folder</i>
+                        </span>
+                        <div class="form-group label-floating">
+                                                <span class="custom-dropdown big">
+                                                  <select> 
+                                                    <option>Employement Type</option>
+                                                      <option>Salaried</option>
+                                                      <option>Self employed</option>  
+                                                      <option>Professional</option>
+                                                      <option>Other</option>
+                                                     
+                                                  </select>
+                                              </span>
+                                            </div>
+                      </div>
+
+
+                      <div class="input-group">
+                        <span class="input-group-addon">
+                          <i class="material-icons">money</i>
+                        </span>
+                        <div class="form-group label-floating">
+                                                <span class="custom-dropdown big">
+                                                  <select> 
+                                                    <option>Salary</option>
+                                                      <option>5 Lacs</option>
+                                                      <option>5 - 10 Lacs</option>  
+                                                      <option>10-5 Lacs</option>
+                                                      <option>>5 Lacs</option>
+                                            
+                                                  </select>
+                                              </span>
+                                            </div>
+                      </div>
+                      
+                    </div>
+<!--**********************************End employementType|Income********************************************************  -->
+                    
+                    <div class="col-sm-6">
+                                        <div class="input-group">
+                        <span class="input-group-addon">
+                          <i class="material-icons">money</i>
+                        </span>
+                        <div class="form-group label-floating">
+                                                <label class="control-label">Loan Amount Required</label>
+                                                <input name="name2" type="email" class="form-control">
+                                            </div>
+                                            <p>(Please ignore if you are applying for cibil score rectification)</p>
+                      </div>
+                      <div class="input-group">
+                        <span class="input-group-addon">
+                          <i class="material-icons">phone</i>
+                        </span>
+                        <div class="form-group label-floating">
+                                                <label class="control-label">Your Phone Number</label>
+                                                <input name="name2" type="email" class="form-control">
+                                            </div>
+                      </div>
+                                    </div>
+
+
+
+                                  </div>
+                              </div>
+  <!-- Tab Employment End -->  
+  
+   <!-- Tab PAN Start -->   
+<!--**********************************Start Pan|Income********************************************************  -->
+                                           
+                              <div class="tab-pane" id="description">
+                  <h4 class="info-text">PAN Details </h4>
+                                  <div class="row">
+                                    
+                                    
+                    <div class="col-sm-6">
+                                        <div class="input-group">
+                        <span class="input-group-addon">
+                          <i class="material-icons">web</i>
+                        </span>
+                        <div class="form-group label-floating">
+                                                <label class="control-label">PAN Number</label>
+                                                <input  id="pan" name="pan" type="number" class="form-control">
+                                            </div>
+                      </div>
+                      
+                    </div>
+                    
+                    <div class="col-sm-6">
+                                        <div class="input-group">
+                       
+                                          <span class="input-group-addon">
+                                            <i class="material-icons">repeat</i>
+                                          </span>
+                                          <div class="form-group label-floating">
+                                                                  <label class="control-label">Verify PAN Number</label>
+                                                                  <input  id="pan" name="pan" type="number" class="form-control">
+                                                              </div>
+           
+
+                                            
+                      </div>
+                                    </div>
+                                  </div>
+                              </div>
+<!--**********************************Pan End********************************************************  -->                            
+                          </div>
+
+                          <div class="wizard-footer">
+                              <div class="pull-right">
+                                    <input type='button' class='btn btn-next btn-fill btn-danger btn-wd' name='next' value='Next' />
+                                    <input type='button' class='btn btn-finish btn-fill btn-danger btn-wd' name='finish' value='Finish' />
+                                </div>
+                                <div class="pull-left">
+                                    <input type='button' class='btn btn-previous btn-fill btn-default btn-wd' name='previous' value='Previous' />
+
+                  <div class="footer-checkbox">
+                    <div class="col-sm-12">
+                      <div class="checkbox">
+                        <label>
+                          <input type="checkbox" name="optionsCheckboxes">
+                        </label>
+                        I Agree to the PCS <a href="terms.html">Terms</a>Terms
+                      </div>
+                    </div>
+                  </div>
+                                </div>
+                                <div class="clearfix"></div>
+                          </div>
+                      </form>
+
+                </div>
+
+<!--**********************************Form End********************************************************  -->  
+               </div>
+            </div>
+
+        </div>
+
+        </div>
+
+
+    </div>
+ 
+   
 
   </main><!-- End #main -->
 
@@ -146,7 +405,7 @@
           <div class="col-lg-3 col-md-6 footer-links">
             <h4>Useful Links</h4>
             <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="index.html">Home</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="#">Services</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
@@ -201,7 +460,7 @@
     </div>
   </footer><!-- End Footer -->
 
-  <a href="#" class="back-to-top"><i class="ri-arrow-up-line"></i></a>
+  <!-- <a href="#" class="back-to-top"><i class="ri-arrow-up-line"></i></a> -->
   <div id="preloader"></div>
 
   <!-- Vendor JS Files -->
@@ -216,7 +475,9 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/booster.js"></script>
-  <script src="form.js"></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js'>
+</script><script  src="./assets/js/form.js"></script>
 
 </body>
 
