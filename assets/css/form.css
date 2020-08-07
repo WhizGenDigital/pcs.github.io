@@ -2455,3 +2455,28 @@ footer .pull-center {
     width: 100%;
   }
 }
+
+/* Drop down employment type */
+.big {
+  font-size: 1.2em;
+}
+/* Custom dropdown */
+.custom-dropdown {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  margin: 10px; /* demo only */
+}
+.custom-dropdown select {
+  background-color: #9c27b0;
+  color: #fff;
+  font-size: inherit;
+  padding: .5em;
+  padding-right: 2.5em;	
+  border: 0;
+  margin: 0;
+  border-radius: 3px;
+  text-indent: 0.01px;
+  text-overflow: '';
+  -webkit-appearance: button; /* hide default arrow in chrome OSX */
+}
