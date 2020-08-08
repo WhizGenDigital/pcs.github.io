@@ -475,7 +475,110 @@ h1, h2, h3, h4, h5, h6 {
   height: 80vh;
   overflow: hidden;
   position: relative;
-  /* background: url("../img/pcs_banner.svg") top center; */
+   /* background: url("../assets/img/banner") top center;  */
+  background-size: cover;
+  margin-bottom: -90px;
+}
+
+
+   .bgimagea {
+    width: 100%;
+    height: 80vh;
+    overflow: hidden;
+    position: relative;
+    background-image: url(../img/banner/b.svg);
+    background-size: cover;
+    margin-bottom: -90px;
+    /* background-position: center; */
+    /* background-size:cover;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover; */
+  
+     
+  }
+
+
+.bgimageb {
+  width: 100%;
+  height: 80vh;
+  overflow: hidden;
+  position: relative;
+  background-image: url(../img/banner/a.svg);
+  background-size: cover;
+  margin-bottom: -90px;
+  /* background-position: center; */
+  /* background-size:cover;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; */
+
+   
+}
+
+
+.bgimagec {
+  width: 100%;
+  height: 80vh;
+  overflow: hidden;
+  position: relative;
+  background-image: url(../img/banner/b.svg);
+  background-size: cover;
+  margin-bottom: -90px;
+  /* background-position: center;
+  background-size:cover;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; */
+
+   
+}
+
+
+.bgimaged {
+  width: 100%;
+  height: 90vh;
+  overflow: hidden;
+  position: relative;
+   background-image: url(../img/banner/a.svg);
+  /* background: url('../img/banner/banner1.svg'); */
+  background-size: cover;
+  margin-bottom: -90px;
+
+  /* background-position: center;
+  background-size:cover;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; */
+
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+#full-screen {
+  width: 100%;
+  height: 80vh;
+  overflow: hidden;
+  position: relative;
+  /* background: url("../assets/img") top center; */
   background-size: cover;
   position: relative;
   margin-bottom: -90px;
@@ -2755,12 +2858,11 @@ a.btn-transparent-green {
 
 /* Cards 2---------------------------------- */
 /* blog section */
-section#blog {
+.section#blog {
   font-size: 16px;
   background-color: white;
 }
 /* end blog section */
-
 
 
 
