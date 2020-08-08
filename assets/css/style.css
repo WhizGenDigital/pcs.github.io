@@ -2754,6 +2754,13 @@ a.btn-transparent-green {
 }
 
 /* Cards 2---------------------------------- */
+/* blog section */
+section#blog {
+  font-size: 16px;
+  background-color: aliceblue;
+}
+/* end blog section */
+
 
 
 
