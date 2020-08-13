@@ -475,9 +475,13 @@ h1, h2, h3, h4, h5, h6 {
   height: 80vh;
   overflow: hidden;
   position: relative;
-   /* background: url("../assets/img/banner") top center;  */
+  background-image: url(../img/banner/b.svg);
   background-size: cover;
   margin-bottom: -90px;
+  max-width: 100%;
+            max-height: 100vh;
+            min-width: 50%;
+            min-height: 100vh;
 }
 
 
@@ -486,7 +490,7 @@ h1, h2, h3, h4, h5, h6 {
     height: 80vh;
     overflow: hidden;
     position: relative;
-    background-image: url(../img/banner/b.svg);
+    /* background-image: url(../img/banner/b.svg); */
     background-size: cover;
     margin-bottom: -90px;
     /* background-position: center; */
@@ -506,7 +510,7 @@ h1, h2, h3, h4, h5, h6 {
   height: 80vh;
   overflow: hidden;
   position: relative;
-  background-image: url(../img/banner/a.svg);
+  /* background-image: url(../img/banner/a.svg); */
   background-size: cover;
   margin-bottom: -90px;
   /* background-position: center; */
@@ -546,7 +550,7 @@ h1, h2, h3, h4, h5, h6 {
   height: 90vh;
   overflow: hidden;
   position: relative;
-   background-image: url(../img/banner/a.svg);
+   /* background-image: url(../img/banner/a.svg); */
   /* background: url('../img/banner/banner1.svg'); */
   background-size: cover;
   margin-bottom: -90px;
