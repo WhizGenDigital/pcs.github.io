@@ -3715,7 +3715,11 @@
 .bxs-cylinder:before {
   content: "\ed27";
 }
+<<<<<<< HEAD
 .bxs-pcsdash:before {
+=======
+.bxs-dashboard:before {
+>>>>>>> f11bdbd8394ba823c05a3f9f3a0951d4c5569d57
   content: "\ed28";
 }
 .bxs-data:before {
