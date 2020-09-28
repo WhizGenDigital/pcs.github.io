@@ -1882,6 +1882,10 @@ section {
 .breadcrumbs {
   padding: 15px 0;
   background: #ecf6fe;
+  margin-top: 50px;
+}
+
+.breadcrumbs:nth-child(1){
   margin-top: 130px;
 }
 
@@ -2534,6 +2538,11 @@ section {
   padding-left: 5px;
   color: white;
   font-size: 14px;
+}
+
+.text-content {
+  font-size: 1.5em;
+  line-height: 1.5em;
 }
 
 /*--------------------------------------------------------------
